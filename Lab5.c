@@ -14,7 +14,7 @@ int main()
     scanf("%lf", &gr);
 
     result = task1(gr);
-    printf("rad = %.6f\n", result);
+    printf("sin = %.6f\n", result);
 
     printf("Введите значение x: ");
     scanf("%lf", &x);
@@ -27,7 +27,7 @@ int main()
 double task1(double gr)
 {
     double rad = gr * M_PI / 180;
-    return rad;
+    return sin(rad);
 }
 void task2(double x, double p)
 {
